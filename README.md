@@ -2,10 +2,10 @@
 
 Проверено на SNR-UPS-ONRT-6000-INTXL
 
-## Зависимости
+### Зависимости
 https://github.com/pyhys/minimalmodbus
 
-## Постоянное имя для usb
+### Постоянное имя для usb
 /etc/udev/rules.d/99-usb-serial.rules
 ```
 SUBSYSTEM=="tty", ATTRS{idVendor}=="1d6b", ATTRS{idProduct}=="0001", SYMLINK+="USB_to_UPS"
