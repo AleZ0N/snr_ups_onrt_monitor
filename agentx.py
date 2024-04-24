@@ -3,7 +3,6 @@
 import pyagentx3
 import sys
 
-sys.path.append('../lib/')
 import snr_modbus
 
 values = {}
